@@ -3,7 +3,7 @@
 //  SDiOS-SourceTree
 //
 //  Created by Darvell Hunt on 2/29/16.
-//  Copyright © 2016 Darvell Hunt. All rights reserved.
+//  Copyright © 2016 Joshten "JTouch" Teuscher. All rights reserved.
 //
 
 import UIKit
@@ -34,7 +34,7 @@ class DataViewController: UIViewController {
 
     // MARK: IB Actions
     @IBAction func buttonTapped(sender: UIButton) {
-        helloWorld.text = "Hello Darvell!"
+        helloWorld.text = "Hello JTouch!"
     }
 }
 
