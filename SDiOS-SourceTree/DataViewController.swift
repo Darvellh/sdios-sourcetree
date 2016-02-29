@@ -35,7 +35,8 @@ class DataViewController: UIViewController {
 
     // MARK: IB Actions
     @IBAction func buttonTapped(sender: UIButton) {
-        helloWorld.text = "Hello Tyson!"
+        helloWorld.textColor = UIColor.redColor()
+        helloWorld.text = "Hello Dar Hunt!"
     }
 }
 
