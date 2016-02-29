@@ -1,6 +1,7 @@
 //
 //  DataViewController.swift
 //  SDiOS-SourceTree
+//  This is fun
 //
 //  Created by Darvell Hunt on 2/29/16.
 //  Copyright © 2016 Darvell Hunt. All rights reserved.
@@ -34,6 +35,7 @@ class DataViewController: UIViewController {
 
     // MARK: IB Actions
     @IBAction func buttonTapped(sender: UIButton) {
+        helloWorld.textColor = UIColor.redColor()
         helloWorld.text = "Hello Dar Hunt!"
     }
 }
